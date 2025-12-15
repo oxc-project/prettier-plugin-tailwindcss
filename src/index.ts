@@ -1,3 +1,6 @@
+// Export batch sorting API for external tools
+export { createBatchSorter, type BatchSortOptions, type BatchSortContext } from './batch-sort.js'
+
 // @ts-ignore
 import type { AttrDoubleQuoted, AttrSingleQuoted } from '@shopify/prettier-plugin-liquid/dist/types.js'
 import * as astTypes from 'ast-types'
